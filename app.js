@@ -8,11 +8,15 @@
 const witheLamp = document.getElementById('white-lamp');
 // console.log(witheLamp)
 
+const yellowLamp = document.getElementById('yellow-lamp');
+// console.log(yellowLamp)
+
 const button = document.getElementById('btn');
 // console.log(button)
 
 button.addEventListener('click',  function() {
-
-
    console.log("l'utente ha cliccato sul bottone")
+   witheLamp.classList.add ('hidden')
+   yellowLamp.classList.remove ('hidden')
+
 })
